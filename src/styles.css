@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.directory {
+  width: 300px;
+  margin: 40px 0px 0px 40px;
+  border: 1px solid #979797;
+}
+.directory .header {
+  display: flex;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.8);
+}
+.directory .title {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
+.title p:hover {
+  color: #00a8ff;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nodesWrapper {
+  padding: 10px 6px;
+}
+.node .entry {
+  display: flex;
+  align-items: center;
+}
+.node .inputBoxWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.node .inputBoxWrapper .controls {
+  flex: 1;
+  opacity: 1;
+  justify-content: flex-end;
+}
+.node .inputBoxWrapper:hover .controls {
+  opacity: 1;
+}
